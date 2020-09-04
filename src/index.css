@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bungee+Inline&display=swap');
+
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+.cart{margin-top: 58px;}
+
+#header{
+    margin-top: 58px;
+    height: 700px;
+    background-image: url('../src/images/home.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome, .featured{font-weight: bold; color: darkgoldenrod;}
+
+.visa{width:20%; height: 20%;}
+
+.nav-link{
+    color: darkgoldenrod;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;
+}
+
+img{
+    height: 200px;
+}
+
+.serv{
+    margin-top: 70px;
+}
+
+.card{
+    margin:20px;
+}
+
+nav{
+    background: black;
+    opacity: 90%;
+}
+
+.menu_active{
+    font-weight: bold;
+    border-bottom: 2px solid darkgoldenrod;
+    border-radius: 5px;
+}
+
+.if_hover:hover{
+    font-weight: bold;
+}
+
+#header .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 50px;
+    color: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+    text-decoration: none;
+}
+#header .btn-get-started:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    border: 2px solid black;
+    transition: .5s;
+}
+
+.brand-name{
+    color: darkgoldenrod;
+    font-family: 'Bungee Inline', cursive;
+}
+.welcome{
+    color: darkgoldenrod;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.header-img{
+    text-align: right;
+}
+
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.card-body{
+    background: url(../src/images/tback.jpeg);
+}
+.card-title{font-weight: bold;}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.nav-link span{
+    background-color: crimson;
+    color: white;
+    font-size: 10px;
+    margin-left: 4px;
+    top: -12px;
+    right: -7px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+@media(max-width: 767px){
+    .brand-name{
+        color: greenyellow;
+    }
+    #header{
+        margin-top: 55px;
+    }
+    #header .btn-get-started{
+        color: white;
+        border: 2px solid white;
+    
+    }
+    #header .btn-get-started:hover{
+        background-color: #fff;
+        border: 2px solid darkgoldenrod;
+    }
+    .footer{
+        text-align: center;
+    }
+    .contact, .subs{
+        padding-top:50px;
+    }
+    form{
+        padding-left: 10px;
+    }
+    .visa{
+        width:60%; height: 80%;
+    }
+}
+
+/* //Footer */
+
+.footer{
+    background-color: black;
+    opacity: 90%;
+    padding: 70px 0 ;
+    padding-bottom: 10px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.footer-top{
+    padding: 60px 0 30px 0;
+    background-color: rgb(31, 27, 27)
+}
+.footer-top h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer .footer-links{color: darkgoldenrod;}
+
+.footer-top .footer-contact{
+    margin-bottom: 30px;
+    margin-right: 150px;
+    color: rgb(114, 111, 111);
+
+}
+.footer .footer-contact {
+    color: darkgoldenrod;
+}
+.footer .footer-contact p{
+    line-height: 26px;
+}
+.footer .footer-social-links{
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+    padding: 7px;
+}
+.footer .footer-social-links{
+    color: #fff;
+}
+.copyright{
+    padding-top:30px;
+}
+
+.cancel{
+    border-radius: 50%;
+    background: #000;
+    align-content: center;
+    align-self: center;
+    color: cornsilk;
+    float: right;
+    border: 1px solid cornsilk ;
+    font-size:20px;
+    margin-top: -350px;
+}
+.cancel:hover{
+    color: #000;
+    transition: .5s;
+    background: cornsilk;
+    border: 1px solid #000 ;
+}
